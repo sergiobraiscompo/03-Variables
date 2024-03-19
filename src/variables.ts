@@ -5,7 +5,7 @@ const hard_rock = "🤘 Hard Rock";
 const clasica = "🎼 Clásica";
 
 // Estilos de texto el nombre del grupo de música queremos ponerlo en negrita, con fuente más grande y color de fondo verde.
-const estilo_nombre = "font-weight: bold; background-color: #008000; font-size: 15px";
+const estilo_nombre = "font-weight: bold; background-color: #008000; font-size: 15px;";
 
 // Interfaz grupo
 interface Grupo {
@@ -51,7 +51,7 @@ const rolling: Grupo = {
     generoMusical: rock,
 }
 
-console.log(beatles);
+console.log(`%c${beatles.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", beatles.annoFundacion, "\n",beatles.enActivo, "\n", beatles.generoMusical);
 console.log(queen);
 console.log(acdc);
 console.log(beethoven);
