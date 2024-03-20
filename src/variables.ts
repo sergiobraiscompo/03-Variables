@@ -51,8 +51,8 @@ const rolling: Grupo = {
     generoMusical: rock,
 }
 
-console.log(`%c${beatles.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", beatles.annoFundacion, "\n",beatles.enActivo, "\n", beatles.generoMusical);
-console.log(queen);
-console.log(acdc);
-console.log(beethoven);
-console.log(rolling);
+console.log(`%c${beatles.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", "Año de funcación:", beatles.annoFundacion, "\n", "Siguen en activo:", beatles.enActivo, "\n", "Género musical:", beatles.generoMusical);
+console.log(`%c${queen.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", "Año de funcación:", queen.annoFundacion, "\n", "Siguen en activo:", queen.enActivo, "\n", "Género musical:",queen.generoMusical);
+console.log(`%c${acdc.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", "Año de funcación:", acdc.annoFundacion, "\n", "Siguen en activo:", acdc.enActivo, "\n", "Género musical:",acdc.generoMusical);
+console.log(`%c${beethoven.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", "Año de funcación:", beethoven.annoFundacion, "\n", "Siguen en activo:", beethoven.enActivo, "\n", "Género musical:",beethoven.generoMusical);
+console.log(`%c${rolling.nombre}` , 'font-weight: bold; background-color: #008000; font-size: 15px;', "\n", "Año de funcación:", rolling.annoFundacion, "\n", "Siguen en activo:", rolling.enActivo, "\n", "Género musical:",rolling.generoMusical);
