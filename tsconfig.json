@@ -15,9 +15,5 @@
     "noImplicitReturns": true,
     "skipLibCheck": true
   },
-<<<<<<< HEAD
-  "include": ["src", "../Apuntes"]
-=======
-  "include": ["src"]
->>>>>>> 2b696291194deec0bf8cd0c78a3cecf582205084
+"include": ["src"]
 }
